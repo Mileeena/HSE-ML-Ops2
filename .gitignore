@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Hydra
+outputs/
+multirun/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Data (managed by DVC)
+/data/
+*.csv
+*.json
+*.h5
+*.parquet
+
+# Models
+*.pth
+*.ckpt
+*.onnx
+*.pt
+*.pkl
+*.joblib
+
+# DVC
+/dvc.lock
+# Keep .dvc files for tracking
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+/data

@@ -1,0 +1,4 @@
+_target_: fashion_mnist_classifier.models.cnn.FashionMNISTCNN
+num_classes: 10
+lr: 0.001
+weight_decay: 0.0001

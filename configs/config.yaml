@@ -1,0 +1,9 @@
+defaults:
+  - data: fashion_mnist
+  - model: cnn
+  - training: default
+  - logging: mlflow
+  - _self_
+
+seed: 42
+project_name: fashion-mnist-classifier
